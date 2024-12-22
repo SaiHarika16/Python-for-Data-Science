@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
-excel_path = "C:/Users/Admin/OneDrive/Desktop/finalmarks.xlsx"
+excel_path = "finalmarks.xlsx"
 df = pd.read_excel(excel_path)
 print("Original Data:")
 print(df)
